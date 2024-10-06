@@ -1,4 +1,4 @@
-# Project Levitate
+# Project Overcompensate
 
 Educative.io Course Notes
 
