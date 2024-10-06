@@ -1,4 +1,4 @@
-# Quantum Machine Learning 
+# Project Levitate
 
 Educative.io Course Notes
 
