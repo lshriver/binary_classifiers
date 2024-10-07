@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: libevdev
+Version: 0.11
+Summary: Python wrapper for libevdev
+Home-page: https://gitlab.freedesktop.org/libevdev/python-libevdev
+Author: Peter Hutterer
+Author-email: peter.hutterer@who-t.net
+Keywords: evdev input uinput libevdev
+Classifier: Development Status :: 4 - Beta
+Classifier: Topic :: Software Development
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3
+License-File: COPYING
+
+
+python-libevdev is a Python wrapper around the libevdev C library. It
+provides a Pythonic API to read events from the Linux kernel's input device
+nodes and to read and/or modify the device's state and capabilities.
+
+The documentation is available here:
+https://python-libevdev.readthedocs.io/en/latest/

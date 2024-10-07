@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: types-flake8-bugbear
+Version: 24.8.19.20240822
+Summary: Typing stubs for flake8-bugbear
+Home-page: https://github.com/python/typeshed
+License: Apache-2.0
+Project-URL: GitHub, https://github.com/python/typeshed
+Project-URL: Changes, https://github.com/typeshed-internal/stub_uploader/blob/main/data/changelogs/flake8-bugbear.md
+Project-URL: Issue tracker, https://github.com/python/typeshed/issues
+Project-URL: Chat, https://gitter.im/python/typing
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Typing :: Stubs Only
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+## Typing stubs for flake8-bugbear
+
+This is a [PEP 561](https://peps.python.org/pep-0561/)
+type stub package for the [`flake8-bugbear`](https://github.com/PyCQA/flake8-bugbear) package.
+It can be used by type-checking tools like
+[mypy](https://github.com/python/mypy/),
+[pyright](https://github.com/microsoft/pyright),
+[pytype](https://github.com/google/pytype/),
+PyCharm, etc. to check code that uses
+`flake8-bugbear`.
+
+This version of `types-flake8-bugbear` aims to provide accurate annotations
+for `flake8-bugbear==24.8.19`.
+The source for this package can be found at
+https://github.com/python/typeshed/tree/main/stubs/flake8-bugbear. All fixes for
+types and metadata should be contributed there.
+
+This stub package is marked as [partial](https://peps.python.org/pep-0561/#partial-stub-packages).
+If you find that annotations are missing, feel free to contribute and help complete them.
+
+
+See https://github.com/python/typeshed/blob/main/README.md for more details.
+This package was generated from typeshed commit
+[`7865a78de1929ee54797baca0fe07ac33567739f`](https://github.com/python/typeshed/commit/7865a78de1929ee54797baca0fe07ac33567739f) and was tested
+with mypy 1.11.1, pyright 1.1.377, and
+pytype 2024.4.11.

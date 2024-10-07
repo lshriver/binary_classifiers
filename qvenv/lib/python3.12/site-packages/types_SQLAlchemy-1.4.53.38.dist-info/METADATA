@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: types-SQLAlchemy
+Version: 1.4.53.38
+Summary: Typing stubs for SQLAlchemy
+Home-page: https://github.com/python/typeshed
+License: Apache-2.0 license
+Project-URL: GitHub, https://github.com/python/typeshed
+Project-URL: Changes, https://github.com/typeshed-internal/stub_uploader/blob/main/data/changelogs/SQLAlchemy.md
+Project-URL: Issue tracker, https://github.com/python/typeshed/issues
+Project-URL: Chat, https://gitter.im/python/typing
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Typing :: Stubs Only
+Description-Content-Type: text/markdown
+
+## Typing stubs for SQLAlchemy
+
+This is a PEP 561 type stub package for the `SQLAlchemy` package. It
+can be used by type-checking tools like
+[mypy](https://github.com/python/mypy/),
+[pyright](https://github.com/microsoft/pyright),
+[pytype](https://github.com/google/pytype/),
+PyCharm, etc. to check code that uses
+`SQLAlchemy`. The source for this package can be found at
+https://github.com/python/typeshed/tree/main/stubs/SQLAlchemy. All fixes for
+types and metadata should be contributed there.
+
+The `sqlalchemy-stubs` package is an alternative to this package and also includes a mypy plugin for more precise types.
+
+*Note:* The `SQLAlchemy` package includes type annotations or type stubs
+since version 2.0.0. Please uninstall the `types-SQLAlchemy`
+package if you use this or a newer version.
+
+
+See https://github.com/python/typeshed/blob/main/README.md for more details.
+This package was generated from typeshed commit `e816acffddf9d984bac131224b0eb0f6a3e1c9fc`.

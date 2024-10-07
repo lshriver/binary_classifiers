@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: types-pyflakes
+Version: 3.2.0.20240813
+Summary: Typing stubs for pyflakes
+Home-page: https://github.com/python/typeshed
+License: Apache-2.0
+Project-URL: GitHub, https://github.com/python/typeshed
+Project-URL: Changes, https://github.com/typeshed-internal/stub_uploader/blob/main/data/changelogs/pyflakes.md
+Project-URL: Issue tracker, https://github.com/python/typeshed/issues
+Project-URL: Chat, https://gitter.im/python/typing
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Typing :: Stubs Only
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+## Typing stubs for pyflakes
+
+This is a [PEP 561](https://peps.python.org/pep-0561/)
+type stub package for the [`pyflakes`](https://github.com/PyCQA/pyflakes) package.
+It can be used by type-checking tools like
+[mypy](https://github.com/python/mypy/),
+[pyright](https://github.com/microsoft/pyright),
+[pytype](https://github.com/google/pytype/),
+PyCharm, etc. to check code that uses
+`pyflakes`.
+
+This version of `types-pyflakes` aims to provide accurate annotations
+for `pyflakes==3.2.*`.
+The source for this package can be found at
+https://github.com/python/typeshed/tree/main/stubs/pyflakes. All fixes for
+types and metadata should be contributed there.
+
+This stub package is marked as [partial](https://peps.python.org/pep-0561/#partial-stub-packages).
+If you find that annotations are missing, feel free to contribute and help complete them.
+
+
+See https://github.com/python/typeshed/blob/main/README.md for more details.
+This package was generated from typeshed commit
+[`37807d753a0e56a178b4c38f80879a4c90592ef3`](https://github.com/python/typeshed/commit/37807d753a0e56a178b4c38f80879a4c90592ef3) and was tested
+with mypy 1.11.1, pyright 1.1.375, and
+pytype 2024.4.11.

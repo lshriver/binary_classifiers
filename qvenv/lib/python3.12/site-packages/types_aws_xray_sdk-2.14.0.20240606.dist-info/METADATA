@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: types-aws-xray-sdk
+Version: 2.14.0.20240606
+Summary: Typing stubs for aws-xray-sdk
+Home-page: https://github.com/python/typeshed
+License: Apache-2.0 license
+Project-URL: GitHub, https://github.com/python/typeshed
+Project-URL: Changes, https://github.com/typeshed-internal/stub_uploader/blob/main/data/changelogs/aws-xray-sdk.md
+Project-URL: Issue tracker, https://github.com/python/typeshed/issues
+Project-URL: Chat, https://gitter.im/python/typing
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Typing :: Stubs Only
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+## Typing stubs for aws-xray-sdk
+
+This is a [PEP 561](https://peps.python.org/pep-0561/)
+type stub package for the [`aws-xray-sdk`](https://github.com/aws/aws-xray-sdk-python) package.
+It can be used by type-checking tools like
+[mypy](https://github.com/python/mypy/),
+[pyright](https://github.com/microsoft/pyright),
+[pytype](https://github.com/google/pytype/),
+PyCharm, etc. to check code that uses
+`aws-xray-sdk`.
+
+This version of `types-aws-xray-sdk` aims to provide accurate annotations
+for `aws-xray-sdk==2.14.*`.
+The source for this package can be found at
+https://github.com/python/typeshed/tree/main/stubs/aws-xray-sdk. All fixes for
+types and metadata should be contributed there.
+
+This stub package is marked as [partial](https://peps.python.org/pep-0561/#partial-stub-packages).
+If you find that annotations are missing, feel free to contribute and help complete them.
+
+
+See https://github.com/python/typeshed/blob/main/README.md for more details.
+This package was generated from typeshed commit `b3fc7e2cece78d1e81df2af0b718c1af0fd05871` and was tested
+with mypy 1.10.0, pyright 1.1.366, and
+pytype 2024.4.11.

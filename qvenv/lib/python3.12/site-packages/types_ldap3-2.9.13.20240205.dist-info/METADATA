@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: types-ldap3
+Version: 2.9.13.20240205
+Summary: Typing stubs for ldap3
+Home-page: https://github.com/python/typeshed
+License: Apache-2.0 license
+Project-URL: GitHub, https://github.com/python/typeshed
+Project-URL: Changes, https://github.com/typeshed-internal/stub_uploader/blob/main/data/changelogs/ldap3.md
+Project-URL: Issue tracker, https://github.com/python/typeshed/issues
+Project-URL: Chat, https://gitter.im/python/typing
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Typing :: Stubs Only
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: types-pyasn1
+
+## Typing stubs for ldap3
+
+This is a [PEP 561](https://peps.python.org/pep-0561/)
+type stub package for the [`ldap3`](https://github.com/cannatag/ldap3) package.
+It can be used by type-checking tools like
+[mypy](https://github.com/python/mypy/),
+[pyright](https://github.com/microsoft/pyright),
+[pytype](https://github.com/google/pytype/),
+PyCharm, etc. to check code that uses
+`ldap3`.
+
+This version of `types-ldap3` aims to provide accurate annotations
+for `ldap3==2.9.*`.
+The source for this package can be found at
+https://github.com/python/typeshed/tree/main/stubs/ldap3. All fixes for
+types and metadata should be contributed there.
+
+This stub package is marked as [partial](https://peps.python.org/pep-0561/#partial-stub-packages).
+If you find that annotations are missing, feel free to contribute and help complete them.
+
+
+See https://github.com/python/typeshed/blob/main/README.md for more details.
+This package was generated from typeshed commit `a2a6aee89213d87ed6f86cf723a7fc4ed3c219a2` and was tested
+with mypy 1.8.0, pyright 1.1.342, and
+pytype 2024.1.24.

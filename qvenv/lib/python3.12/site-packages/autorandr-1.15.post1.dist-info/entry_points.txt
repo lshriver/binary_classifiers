@@ -1,0 +1,3 @@
+[console_scripts]
+autorandr = autorandr:exception_handled_main
+
